@@ -1,0 +1,50 @@
+{
+  "name": "frontend-challenge",
+  "version": "1.0.0",
+  "description": "Não é permitido o uso de nenhuma biblioteca ou framework externo. Tudo será feito com [Vanilla.js](http://vanilla-js.com/).",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/jest/bin/jest.js --verbose",
+    "coverage": "npm test -- --coverage",
+    "standard": "node_modules/standard/bin/cmd.js && exit 0",
+    "start": "PORT=3000 && nodemon app.js"
+  },
+  "standard": {
+    "ignore": [
+      "/public/assets/scripts/formController.test.js",
+      "/public/assets/scripts/formGenerator.test.js"
+    ],
+    "global": [
+      "fetch",
+      "Event"
+    ]
+  },
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "./jestConfig.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evemontalvao/frontend-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evemontalvao/frontend-challenge/issues"
+  },
+  "homepage": "https://github.com/evemontalvao/frontend-challenge#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "standard": "^12.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest-fetch-mock": "^2.1.0"
+  }
+}

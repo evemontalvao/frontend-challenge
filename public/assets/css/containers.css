@@ -1,0 +1,10 @@
+.Container_default {
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 6px;
+  width: 744px;
+  margin: 40px auto;
+}
+
+.Container_default-content {
+  margin: 40px 80px 0;
+}

@@ -1,0 +1,13 @@
+.Title_h2 {
+  color: #1393f6;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 2px solid rgba(19,147,246,.2);
+  padding: 0 0 31px;
+  margin: 0 0 43px;
+}
+
+h2 strong {
+  display: block;
+}

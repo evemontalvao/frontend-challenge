@@ -1,0 +1,75 @@
+.Form_step {
+  position: relative;
+  display: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Form_step--active {
+  display: block;
+}
+
+.Form_stepButton {
+  float: left;
+}
+
+.Form_fieldset {
+  margin: 0 0 24px;
+  display: block;
+}
+
+.Form_label {
+  color: rgba(51,51,51,.9);
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  padding: 0 0 10px;
+}
+
+.Form_input {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 6px;
+  display: block;
+  padding: 13px 10px;
+  background-color: #eff4fa;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 16px;
+  border: 1px solid rgba(19,147,246,.5);
+  box-shadow: none;
+  transition: box-shadow .2s linear;
+}
+
+.Form_input:hover {
+  background-color: #fff;
+  box-shadow: 0px 0px 4px 1px rgba(19,147,246,.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.Form_button {
+  width: 100%;
+  background-color: #1393f6;
+  border-radius: 4px;
+  padding: 13px 10px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Form_required-span {
+  font-size: 12px;
+  color: #b24141;
+  margin: 8px 0 0;
+  display: none;
+}
+
+.Form_required-span--active {
+  display: block;
+}
+
+.Form_input--required {
+  border: 1px solid #b24141;
+}
